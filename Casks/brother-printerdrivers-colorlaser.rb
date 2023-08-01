@@ -4,7 +4,7 @@ cask "brother-printerdrivers-colorlaser" do
 
   url "https://download.brother.com/welcome/dlf104778/Brother_PrinterDrivers_ColorLaser_1_4_0.dmg"
   name "Brother_PrinterDrivers_ColorLaser"
-  desc "Scanner driver for Brother all-in-one printers"
+  desc "Printer driver for Brother all-in-one printers"
   homepage "https://support.brother.com/g/b/downloadtop.aspx?c=us&lang=en&prod=mfc9970cdw_all"
 
   pkg "Brother_PrinterDrivers_ColorLaser.pkg"
