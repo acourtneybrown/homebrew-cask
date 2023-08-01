@@ -11,9 +11,7 @@ cask "brother-scannerdrivers-ica" do
 
   uninstall pkgutil: ["com.Brother.Brotherdriver.Brother_ScannerDrivers_ICA"]
 
-  zap trash: [
-    "~/Library/Preferences/com.brother.scanner.ica.plist"
-  ]
+  zap trash: ["~/Library/Preferences/com.brother.scanner.ica.plist"]
 
   caveats do
     reboot
