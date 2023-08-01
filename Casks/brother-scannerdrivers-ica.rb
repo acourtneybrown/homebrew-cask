@@ -5,7 +5,17 @@ cask "brother-scannerdrivers-ica" do
   url "https://download.brother.com/welcome/dlf104746/Brother_ScannerDrivers_ICA_1_5_0.dmg"
   name "Brother_ScannerDrivers_ICA"
   desc "Scanner driver for Brother all-in-one printers"
-  homepage "https://support.brother.com/g/b/downloadhowto.aspx"
+  homepage "https://support.brother.com/g/b/downloadtop.aspx?c=us&lang=en&prod=mfc9970cdw_all"
 
-  app ""
+  pkg "Brother_ScannerDrivers_ICA.pkg"
+
+  uninstall pkgutil: ["com.Brother.Brotherdriver.Brother_ScannerDrivers_ICA"]
+
+  zap trash: [
+    "~/Library/Preferences/com.brother.scanner.ica.plist"
+  ]
+
+  caveats do
+    reboot
+  end
 end
