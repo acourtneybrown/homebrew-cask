@@ -1,4 +1,4 @@
-cask "brother_printerdrivers_colorlaser" do
+cask "brother-printerdrivers-colorlaser" do
   version "1.4.0"
   sha256 "5e26d45e837a57f88a17336f573eeac860d298b5ebeb57547462dc3632c614e0"
 
