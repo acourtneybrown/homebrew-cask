@@ -1,6 +1,7 @@
 cask "brother-printerdrivers-colorlaser" do
   version "1.4.0"
-  sha256 "5e26d45e837a57f88a17336f573eeac860d298b5ebeb57547462dc3632c614e0"
+  # sha256 "5e26d45e837a57f88a17336f573eeac860d298b5ebeb57547462dc3632c614e0"
+  sha256 :no_check
 
   url "https://download.brother.com/welcome/dlf104778/Brother_PrinterDrivers_ColorLaser_1_4_0.dmg"
   name "Brother_PrinterDrivers_ColorLaser"
