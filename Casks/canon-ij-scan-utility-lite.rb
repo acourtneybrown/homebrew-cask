@@ -11,5 +11,11 @@ cask "canon-ij-scan-utility-lite" do
 
   uninstall pkgutil: ["jp.co.canon.pkg.ijscanutilityLite.040102"]
 
-  zap trash: "/Library/Application Support/Canon"
+  zap trash: [
+    "/Library/Application Support/Canon",
+    "~/Library/Application Scripts/jp.co.canon.ij.scanutilitylite",
+    "~/Library/Application Scripts/jp.co.canon.ij.scanutilitylite.CIJSULAgent",
+    "~/Library/Containers/jp.co.canon.ij.scanutilitylite",
+    "~/Library/Containers/jp.co.canon.ij.scanutilitylite.CIJSULAgent",
+  ]
 end
