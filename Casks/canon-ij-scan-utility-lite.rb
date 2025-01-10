@@ -3,7 +3,7 @@ cask "canon-ij-scan-utility-lite" do
   sha256 "d03a1b62379ead0fe7bdade28b8b817c7db4afd773ed37e6cb172e389e32791c"
 
   url "https://gdlp01.c-wss.com/gds/7/0200005317/16/msul-mac-#{version.dots_to_underscores}-ea21_3.dmg",
-    verified: "gdlp01.c-wss.com/gds/7/0200005317/16/"
+      verified: "gdlp01.c-wss.com/gds/7/0200005317/16/"
   name "IJ Scan Utility Lite"
   desc "Scan photos and documents using AirPrint"
   homepage "https://www.csai.canon.com/support/p/canoscan-lide-400"
