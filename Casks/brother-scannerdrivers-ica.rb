@@ -9,9 +9,9 @@ cask "brother-scannerdrivers-ica" do
 
   pkg "Brother_ScannerDrivers_ICA.pkg"
 
-  uninstall pkgutil: ["com.Brother.Brotherdriver.Brother_ScannerDrivers_ICA"]
+  uninstall pkgutil: "com.Brother.Brotherdriver.Brother_ScannerDrivers_ICA"
 
-  zap trash: ["~/Library/Preferences/com.brother.scanner.ica.plist"]
+  zap trash: "~/Library/Preferences/com.brother.scanner.ica.plist"
 
   caveats do
     reboot
