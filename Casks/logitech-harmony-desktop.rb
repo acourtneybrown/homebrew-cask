@@ -9,5 +9,5 @@ cask "logitech-harmony-desktop" do
 
   pkg "Harmony Desktop.pkg"
 
-  uninstall pkgutil: ["HarmonyDesktop.pkg"]
+  uninstall pkgutil: "HarmonyDesktop.pkg"
 end
