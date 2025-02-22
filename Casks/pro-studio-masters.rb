@@ -13,6 +13,7 @@ cask "pro-studio-masters" do
   zap trash: [
     "~/Library/Application Support/ProStudioMasters",
     "~/Library/Preferences/com.prostudiomasters.dlm.plist",
+    "~/Library/Saved Application State/com.prostudiomasters.dlm.savedState",
     "~/Library/Logs/ProStudioMasters",
   ]
 end
