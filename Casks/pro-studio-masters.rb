@@ -14,6 +14,7 @@ cask "pro-studio-masters" do
     "~/Library/Application Support/ProStudioMasters",
     "~/Library/Preferences/com.prostudiomasters.dlm.plist",
     "~/Library/Saved Application State/com.prostudiomasters.dlm.savedState",
+    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.prostudiomasters.dlm.sfl3",
     "~/Library/Logs/ProStudioMasters",
   ]
 end
