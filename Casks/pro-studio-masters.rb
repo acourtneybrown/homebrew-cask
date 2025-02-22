@@ -4,17 +4,18 @@ cask "pro-studio-masters" do
 
   url "https://download.prostudiomasters.com/mac/ProStudioMasters-#{version}.dmg"
   name "ProStudioMasters"
-  desc "ProStudioMasters download manager"
+  desc "Download manager for ProStudioMasters.com"
   homepage "https://www.prostudiomasters.com/downloads"
+
   auto_updates true
 
   app "ProStudioMasters.app"
 
   zap trash: [
+    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.prostudiomasters.dlm.sfl*",
     "~/Library/Application Support/ProStudioMasters",
+    "~/Library/Logs/ProStudioMasters",
     "~/Library/Preferences/com.prostudiomasters.dlm.plist",
     "~/Library/Saved Application State/com.prostudiomasters.dlm.savedState",
-    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.prostudiomasters.dlm.sfl3",
-    "~/Library/Logs/ProStudioMasters",
   ]
 end
