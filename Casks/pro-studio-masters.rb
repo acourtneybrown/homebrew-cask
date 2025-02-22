@@ -6,8 +6,13 @@ cask "pro-studio-masters" do
   name "ProStudioMasters"
   desc "ProStudioMasters download manager"
   homepage "https://www.prostudiomasters.com/downloads"
+  auto_updates true
 
   app "ProStudioMasters.app"
 
-  # uninstall pkgutil: ""
+  zap trash: [
+    "~/Library/Application Support/ProStudioMasters",
+    "~/Library/Preferences/com.prostudiomasters.dlm.plist",
+    "~/Library/Logs/ProStudioMasters",
+  ]
 end
