@@ -6,7 +6,7 @@ cask "canon-ij-scan-utility-lite" do
       verified: "gdlp01.c-wss.com/gds/7/0200005317/18/"
   name "IJ Scan Utility Lite"
   desc "Scan photos and documents using AirPrint"
-  homepage "https://www.csai.canon.com/support/p/canoscan-lide-400"
+  homepage "https://www.usa.canon.com/support/p/canoscan-lide-400#idReference%3Dsoftware-drivers"
 
   pkg "IJ Scan Utility Lite_040201.pkg"
 
