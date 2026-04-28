@@ -8,9 +8,9 @@ cask "canon-ij-scan-utility-lite" do
   desc "Scan photos and documents using AirPrint"
   homepage "https://www.csai.canon.com/support/p/canoscan-lide-400"
 
-  pkg "IJ Scan Utility Lite_040102.pkg"
+  pkg "IJ Scan Utility Lite_040201.pkg"
 
-  uninstall pkgutil: "jp.co.canon.pkg.ijscanutilityLite.040102"
+  uninstall pkgutil: "jp.co.canon.pkg.ijscanutilityLite.040201"
 
   zap trash: [
     "/Library/Application Support/Canon",
