@@ -7,6 +7,8 @@ cask "canon-ij-scan-utility-lite" do
   desc "Scan photos and documents using AirPrint"
   homepage "https://www.usa.canon.com/support/p/canoscan-lide-400#idReference%3Dsoftware-drivers"
 
+  depends_on macos: :high_sierra
+
   pkg "IJ Scan Utility Lite_040201.pkg"
 
   uninstall pkgutil: "jp.co.canon.pkg.ijscanutilityLite.040201"

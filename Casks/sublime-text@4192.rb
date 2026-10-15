@@ -16,6 +16,7 @@ cask "sublime-text@4192" do
   end
 
   auto_updates true
+  depends_on macos: :catalina
   conflicts_with cask: "sublime-text@dev"
 
   app "Sublime Text.app"
