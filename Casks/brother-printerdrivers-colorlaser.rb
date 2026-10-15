@@ -7,7 +7,7 @@ cask "brother-printerdrivers-colorlaser" do
   desc "Printer driver for Brother all-in-one printers"
   homepage "https://support.brother.com/g/b/downloadtop.aspx?c=us&lang=en&prod=mfc9970cdw_all"
 
-  depends_on macos: :high_sierra
+  depends_on :macos
 
   pkg "Brother_PrinterDrivers_ColorLaser.pkg"
 

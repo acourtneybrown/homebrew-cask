@@ -7,7 +7,7 @@ cask "brother-scannerdrivers-ica" do
   desc "Scanner driver for Brother all-in-one printers"
   homepage "https://support.brother.com/g/b/downloadtop.aspx?c=us&lang=en&prod=mfc9970cdw_all"
 
-  depends_on macos: :high_sierra
+  depends_on :macos
 
   pkg "Brother_ScannerDrivers_ICA.pkg"
 
