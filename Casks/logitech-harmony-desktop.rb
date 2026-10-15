@@ -7,6 +7,8 @@ cask "logitech-harmony-desktop" do
   desc "Software to control Logitech Harmony remote control configuration"
   homepage "https://support.myharmony.com/en-us/harmony-and-macos"
 
+  depends_on :macos
+
   pkg "Harmony Desktop.pkg"
 
   uninstall pkgutil: "HarmonyDesktop.pkg"
