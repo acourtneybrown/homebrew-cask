@@ -13,9 +13,9 @@ cask "brother-printerdrivers-colorlaser" do
 
   uninstall pkgutil: "com.Brother.Brotherdriver.Brother_PrinterDrivers_ColorLaser"
 
+  zap :not_required
+
   caveats do
     reboot
   end
-
-  zap :not_required
 end
