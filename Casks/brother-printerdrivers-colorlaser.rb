@@ -17,5 +17,5 @@ cask "brother-printerdrivers-colorlaser" do
     reboot
   end
 
-  # No zap stanza required
+  zap :not_required
 end
